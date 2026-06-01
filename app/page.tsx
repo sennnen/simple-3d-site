@@ -1,4 +1,4 @@
-import SplineScene from "./components/SplineScene";
+import SceneCanvas from "./components/SceneCanvas";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
         Welcome to the third dimension
       </h1>
       <div className="h-[70vh] w-full max-w-5xl overflow-hidden rounded-2xl border border-zinc-800 shadow-2xl">
-        <SplineScene />
+        <SceneCanvas />
       </div>
     </main>
   );
