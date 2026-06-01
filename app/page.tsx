@@ -1,4 +1,4 @@
-const SPLINE_EMBED_URL = "https://my.spline.design/9951u9cumiw2Ehj8/";
+import SplineScene from "./components/SplineScene";
 
 export default function Home() {
   return (
@@ -7,12 +7,7 @@ export default function Home() {
         Welcome to the third dimension
       </h1>
       <div className="h-[70vh] w-full max-w-5xl overflow-hidden rounded-2xl border border-zinc-800 shadow-2xl">
-        <iframe
-          src={SPLINE_EMBED_URL}
-          title="Spline 3D scene"
-          className="h-full w-full"
-          frameBorder={0}
-        />
+        <SplineScene />
       </div>
     </main>
   );
